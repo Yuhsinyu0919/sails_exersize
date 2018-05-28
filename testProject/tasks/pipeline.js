@@ -59,6 +59,8 @@ var cssFilesToInject = [
 //
 // Client-side javascript files to inject as <script> tags, in order.
 //
+//0528 以下為將jquery.js放在assets\dependencies底下, pipeline.js 自己處理好的內容
+//因此不用修改內容, 只需要將jquery放在正確的目錄下就好
 var jsFilesToInject = [
 
   // Load `sails.io` before everything else.
