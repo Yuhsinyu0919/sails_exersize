@@ -19,7 +19,7 @@ module.exports = {
     },
 
     email:{
-      type: 'string',
+      type: 'string',  //原本type為email,須改為string才不會錯誤
       required: true,
       unique: true
     },

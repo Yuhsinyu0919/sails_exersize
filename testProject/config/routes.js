@@ -18,6 +18,7 @@ module.exports.routes = {
   'GET /welcome':            { action: 'dashboard/view-welcome' },
 
   'GET /testuser/new':       { view:   'testuser/new'},
+  'GET /':                   { view:   'static/index'},
   //'GET /testuser/hello':     { view:   'testuser/hello'},   //0515 add new page
   'GET /faq':                { view:   'pages/faq' },
   'GET /legal/terms':        { view:   'pages/legal/terms' },
